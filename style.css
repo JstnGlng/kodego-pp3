@@ -1,0 +1,22 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+.index
+{background: url('./Bg.jpg') rgba(0,0,0,0.3);
+background-blend-mode: multiply;
+background-position: center top;
+background-size: cover; 
+background-repeat: no-repeat;}
+
+.Homeestimate
+{background: url('./forsale.jpg') rgba(0,0,0,0.3);
+background-blend-mode: multiply;
+background-position: center top;
+background-size: cover; 
+background-repeat: no-repeat;}
+
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255,255,255,0.15);
+        backdrop-filter: blur(10px);
+    }
+}
